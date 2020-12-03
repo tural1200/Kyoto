@@ -1,0 +1,108 @@
+header .my-container {
+  background-image: url(/img/kyoto.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 35rem;
+}
+
+header .my-container .my-brand {
+  color: white;
+  border: 2px solid white;
+  padding: 5px 15px;
+}
+
+header .my-container .my-navbar .my-ul .my-li a {
+  color: white;
+}
+
+header .my-container .my-navbar .search img {
+  width: 20px;
+}
+
+header .my-container .my-container2 {
+  margin-top: 11rem;
+}
+
+header .my-container .my-container2 .my-row1 .my-col1 {
+  min-height: 300px;
+}
+
+header .my-container .my-container2 .my-row1 .my-col1 h1 {
+  font-size: 10rem;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+header .my-container .my-container2 .my-row1 .my-col1 p {
+  color: white;
+}
+
+header .my-container .my-container2 .my-row2 .my-col2 {
+  min-height: 200px;
+  text-align: center;
+}
+
+header .my-container .my-container2 .my-row2 .my-col2 a {
+  padding: 10px 45px;
+  border-radius: 20px;
+  background-color: white;
+  color: black;
+  font-weight: 650;
+}
+
+header .my-container .my-container2 .my-row2 .my-col3 {
+  min-height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+header .my-container .my-container2 .my-row2 .my-col3 .photo {
+  width: 15rem;
+  height: 10rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .my-container .my-container2 .my-row2 .my-col3 .photo img {
+  width: 35px;
+}
+
+header .my-container .my-container2 .my-row2 .my-col3 .photo1 {
+  background-image: url(/img/photo2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+header .my-container .my-container2 .my-row2 .my-col3 .photo2 {
+  background-image: url(/img/photo1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+@media (min-width: 992px) {
+  header .my-container .my-navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+@media (max-width: 992px) {
+  header .my-container .my-container2 .my-row1 .my-col1 h1 {
+    font-size: 5rem;
+  }
+}
+/*# sourceMappingURL=style.css.map */
